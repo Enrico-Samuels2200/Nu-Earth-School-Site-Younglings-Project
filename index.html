@@ -193,11 +193,11 @@
                     <div class="form">
                         <input type="text" placeholder="Full Name" title="fullName" onchange="updateForm(title, value)">
                         <input type="text" placeholder="Contact Number" title="contactNumber" onchange="updateForm(title, value)">
-                        <input type="email" placeholder="E-mail Address" title="emailaddress" onchange="updateForm(title, value)">
+                        <input type="email" placeholder="E-mail Address" title="email" onchange="updateForm(title, value)">
                         
                         <div class="user-query">
-                            <textarea placeholder=" //: Add message here"></textarea>
-                            <button type="button" onclick="sendD()">Send Message</button>
+                            <textarea placeholder=" //: Add message here" title="message" onchange="updateForm(title, value)"></textarea>
+                            <button type="button" onclick="sendToDb()">Send Message</button>
                         </div>
                     </div>
                 </div>
