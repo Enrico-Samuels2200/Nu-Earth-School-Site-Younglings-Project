@@ -4,7 +4,7 @@ updateForm = (name, data) => {
     userData[name] = data;
 }
 
-sendToDB = () => {
+sendToDb = () => {
     // POST request with body equal on data in JSON format
     fetch('http://localhost:3535/api/send', {
         method: 'POST',
