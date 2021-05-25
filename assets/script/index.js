@@ -6,7 +6,7 @@ updateForm = (name, data) => {
 
 sendToDb = () => {
     // POST request with body equal on data in JSON format
-    fetch('http://localhost:3535/api/send', {
+    fetch('https://nuearth-api.herokuapp.com/api/send', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
